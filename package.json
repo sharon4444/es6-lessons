@@ -16,6 +16,13 @@
     "html-loader": "^0.4.4",
     "json-loader": "^0.5.4",
     "file-loader": "^0.9.0",
-    "happypack": "^4.0.0"
+    "happypack": "^4.0.0",
+    "babel-polyfill": "^6.26.0",
+    "es5-shim": "^4.5.10",
+    "es6-promise": "^4.2.4",
+    "fetch-detector": "^1.0.1",
+    "fetch-ie8": "^1.5.0",
+    "fetch-mock": "^6.0.1",
+    "gulp-file-include": "^2.0.1"
   }
 }
