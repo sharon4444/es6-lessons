@@ -8,26 +8,22 @@
     <meta name="description" content="" />
     <meta name="apple-mobile-web-app-capable" content="no" />
     <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" type="text/css" href="../css/login.less" />
+    <link rel="stylesheet" type="text/css" href="../css/register.less" />
 </head>
 
 <body id="login">
   <div class="back">
-    <div id="login-area">
-      <h1>密码登录</h1>
-      <div id="login-container"></div>
-    </div>
+    <div id="container"></div>
   </div>
   <script type="text/javascript" src="../lib/vendors.js"></script>
-  <script type="text/javascript" src="../js/login/init.js"></script>
-  <script>
-    var login = pass.login({
-      container: document.getElementById('login-container'),
-      autocomplete: false
-      // success: function() {
-      //     location.replace('profile.html');
-      // }
-    })
+  <script type="text/javascript" src="../js/register/info/init.js"></script>
+  <script type="text/javascript">
+      var registerMobile = pass.regInfo({
+          container: document.getElementById('container'),
+          success: function() {
+              location.replace('register-payment.html');
+          }
+      });
   </script>
 </body>
 </html>
